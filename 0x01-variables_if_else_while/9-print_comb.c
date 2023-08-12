@@ -4,9 +4,8 @@
  *
  * Prints out all possible combinations for single digits
  *
- * Result: Always 0 (Success)
- *
- */
+ * Return: Always 0 (Success)
+ **/
 int main(void)
 {
 	int number = 0;
