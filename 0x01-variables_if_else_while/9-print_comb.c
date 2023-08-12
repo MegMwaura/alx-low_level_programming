@@ -2,7 +2,9 @@
 /**
  * main - Entry point of the program
  *
- * Result: 0(Success)
+ * Displays all possible combinations for single digits
+ *
+ * Result: 0 (Success)
  */
 int main(void)
 {
