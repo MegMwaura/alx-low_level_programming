@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
+ * main - Entry point of the program 
  *
- * Displays all possible combinations for single digits
+ * Prints out all possible combinations for single digits
  *
- * Result: 0 (Success)
+ * Result: Always 0 (Success)
+ *
  */
 int main(void)
 {
