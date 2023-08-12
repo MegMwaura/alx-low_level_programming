@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main - Prints out possible combinations of single digit numbers 
+ * main - Entry point of the program
  *
  * Result: 0(Success)
  */
 int main(void)
 {
 	int number = 0;
+
 	while (number <= 9)
 	{
 		putchar(number + '0');
