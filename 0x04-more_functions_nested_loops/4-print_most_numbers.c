@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints numbers zero to nine excluding two and four
- * @num: represents the numbers
- * Return: Always 0
+ * prints_most_numbers - prints numbers from 0 to 9
+ * Description - prints the numbers excluding 2 and 4
+ * Returns: numbers from 0 up to 9
  */
 
 void print_most_numbers(void)
@@ -16,8 +16,10 @@ void print_most_numbers(void)
 	{
 	continue;
 	}
+	else
+	{
 	_putchar(num + '0');
 	}
+	}
 	_putchar('\n');
-	return (0);
-}
+}	
