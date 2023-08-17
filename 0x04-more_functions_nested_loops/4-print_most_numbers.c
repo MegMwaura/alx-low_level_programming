@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - Prints numbers zero to nine excluding two and four
  * @num: represents the numbers
- * Return: ...
+ * Return: Always 0
  */
 
 void print_most_numbers(void)
@@ -19,4 +19,5 @@ void print_most_numbers(void)
 	_putchar(num + '0');
 	}
 	_putchar('\n');
+	return (0);
 }
