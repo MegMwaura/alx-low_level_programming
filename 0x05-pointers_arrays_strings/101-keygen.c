@@ -38,9 +38,10 @@ int main(void)
 			}
 			for (index = 0; password[index]; index++)
 			{
-				if (password[index] -= diff_half2;
+				if (password[index] -= diff_half2);
+				password[index] -= diff_half2;
 						break;
-						}
+			}
 						}
 						}
 						printf("%s", password);
