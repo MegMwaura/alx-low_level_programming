@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strstr - Locates a substring
+ * _strstr - Entry point of the program
  * @haystack: input
  * @needle: input
  * Return: Always 0 (Success)
@@ -12,19 +11,16 @@ char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
-		char *one = haystack;
-		char *two = needle;
+		char *l = haystack;
+		char *p = needle;
 
-		while (*one == *two && *two != '\0')
+		while (*l == *p && *p != '\0')
 		{
-			one++;
-			two++;
+			l++;
+			p++;
 		}
-
-		if (*two == '\0')
-		{
-			return (NULL);
-		}
+		if (*p == '\0')
+			return (haystack);
 	}
 	return (0);
 }
