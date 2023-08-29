@@ -2,20 +2,19 @@
 
 /**
  * print_chessboard - Entry point of the program
- * @a: array
- * Return: Always 0 (Success)
+ * @a: Array
+ * Return: Void
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int i, n;
+	int m;
+	int w;
 
-	for (i = 0; i < 8; i++)
+	for (m = 0; m < 8; m++)
 	{
-	for (n = 0; n < 8; n++)
-	{
-		_putchar(a[i][n]);
+		for (w = 0; w < 8; w++)
+			_putchar(a[m][w]);
 		_putchar('\n');
-	}
 	}
 }
