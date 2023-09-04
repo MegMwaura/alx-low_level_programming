@@ -17,6 +17,6 @@ int main(int argc, char *argv[]__attribute__((unused)))
 	{
 		argumentCount++;
 	}
-	printf("Number of arguments: %d\n", argumentCount);
+	printf("%d\n", argumentCount);
 	return (0);
 }
